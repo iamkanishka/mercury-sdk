@@ -11,12 +11,17 @@
     "payments",
     "typescript"
   ],
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamkanishka/mercury-sdk.git"
+  },
+
   "homepage": "https://github.com/iamkanishka/mercury-sdk",
   "bugs": {
     "url": "https://github.com/iamkanishka/mercury-sdk/issues"
   },
   "license": "MIT",
-  "author": "Your Org",
+  "author": "Kanishka Naik",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
