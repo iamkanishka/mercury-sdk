@@ -1195,7 +1195,7 @@ describe("SDK headers", () => {
     vi.stubGlobal("fetch", fetchMock);
     const c = new MercuryClient({ apiKey: "secret-token:test" });
     await c.accounts.get(ID);
-    expect(getHeaders(fetchMock)["X-Mercury-SDK"]).toBe("mercury-sdk-ts/1.0.0");
+    expect(getHeaders(fetchMock)["X-Mercury-SDK"]).toBe("mercury-fintech-sdk-ts/1.0.0");
   });
 
   it("sends Accept: application/json", async () => {

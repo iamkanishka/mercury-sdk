@@ -55,7 +55,7 @@ export interface MercuryClientOptions {
  *
  * @example
  * ```ts
- * import { MercuryClient } from "mercury-sdk";
+ * import { MercuryClient } from "mercury-fintech-sdk";
  *
  * const mercury = new MercuryClient({ apiKey: "secret-token:..." });
  *

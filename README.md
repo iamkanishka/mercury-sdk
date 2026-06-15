@@ -1,4 +1,4 @@
-# mercury-sdk
+# mercury-fintech-sdk
 
 Production-grade TypeScript SDK for the [Mercury Banking API](https://docs.mercury.com).
 
@@ -22,7 +22,7 @@ Production-grade TypeScript SDK for the [Mercury Banking API](https://docs.mercu
 ## Installation
 
 ```bash
-npm install mercury-sdk
+npm install mercury-fintech-sdk
 ```
 
 ---
@@ -30,7 +30,7 @@ npm install mercury-sdk
 ## Quick start
 
 ```ts
-import { MercuryClient } from "mercury-sdk";
+import { MercuryClient } from "mercury-fintech-sdk";
 
 const mercury = new MercuryClient({
   apiKey: "secret-token:mercury_production_...",
@@ -171,7 +171,7 @@ import {
   MercuryValidationError,
   MercuryServerError,
   MercuryNetworkError,
-} from "mercury-sdk";
+} from "mercury-fintech-sdk";
 
 try {
   await mercury.accounts.get(id);

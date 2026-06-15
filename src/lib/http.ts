@@ -96,7 +96,7 @@ export class HttpClient {
           Authorization: `Bearer ${this.opts.apiKey}`,
           "Content-Type": "application/json",
           Accept: "application/json",
-          "X-Mercury-SDK": "mercury-sdk-ts/1.0.0",
+          "X-Mercury-SDK": "mercury-fintech-sdk-ts/1.0.0",
         };
 
         response = await fetch(url, {
